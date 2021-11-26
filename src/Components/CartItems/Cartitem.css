@@ -1,0 +1,19 @@
+.cart-btn{
+    background-color: #e96b56;
+    color: white;
+    letter-spacing: 1px;
+    margin: 2px 2px 4px 0px;
+}
+.cart-btn:hover{
+    transform: scale(1.1,1.2);
+    transition: ease-in-out .2s;
+    color: white;
+}
+.course-card{
+    width:18rem;
+    height: 500px;
+    padding: 0px 0px;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}

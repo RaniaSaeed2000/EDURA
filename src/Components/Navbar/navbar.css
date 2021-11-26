@@ -1,0 +1,61 @@
+.logo-link{
+        text-decoration: none;
+        color: #e96b56;
+        font-size: x-large;
+        font-style:italic;
+        font-weight: 600;
+       
+}
+
+.logo-link:hover{
+        text-decoration: none;
+        color: #e96b56;
+
+}
+.navb{
+ 
+ 
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav_links{
+        text-decoration:none;
+        color :#e96b56;
+        margin-left: 15px;
+       border-bottom:2px solid #e96b56;   
+       font-size: large;  
+       font-family:cursive;
+       }
+       
+
+
+
+.nav_links:hover{
+        text-decoration: none;
+        color :#e96b56;
+    
+        
+        
+      
+       }
+
+       .appBar {
+        box-shadow: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+      
+      }
+      .title{
+        flex-grow: 1;
+        align-items: center;
+        display:flex;
+        text-decoration:none;
+        color:#e96b56;
+        
+      }
+    
+    
+      .image{
+        margin-right: 10px;
+       
+      }

@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+.head-con{
+    text-align: center;
+    margin-top:80px;
+    justify-content: center;
+}
+
+
+.courses-head{
+
+    color: #e96b56;
+
+    
+}
+.products-con{
+    margin-bottom: 20px;
+}

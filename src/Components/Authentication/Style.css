@@ -1,0 +1,49 @@
+.link-s{
+    color:  #e96b56;
+}
+
+a:hover{
+    text-decoration: none;
+    color:  #e96b56;
+
+}
+.btn-c{
+    background-color: #e96b56;
+    color:white;
+    letter-spacing: 2px;
+    border-color: #e96b56;
+
+}
+.btn-c:hover{
+    background-color: #e96b56;
+    color:white;
+    letter-spacing: 2px;
+    border-color: #e96b56;
+
+
+}
+.btn-c::after{
+    background-color: #e96b56;
+    color:white;
+    letter-spacing: 2px;
+    border-color: #e96b56;
+
+}
+.btn-c::before{
+    background-color: #e96b56;
+    color:white;
+    letter-spacing: 2px;
+    border-color: #e96b56;
+
+}
+.btn-c:active{
+    background-color: #e96b56;
+    color:white;
+    letter-spacing: 2px;
+    border-color: #e96b56;
+
+}
+
+
+
+

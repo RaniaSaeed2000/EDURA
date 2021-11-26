@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+
+.course-card{
+
+    width:17rem;
+    height: 500px;
+    padding: 15px 15px;
+    margin: auto  ;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+    
+}

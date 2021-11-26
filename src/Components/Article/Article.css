@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.edit_card{
+   width:18rem;
+   height: 500px;
+   padding: 15px 15px;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   flex-wrap: wrap;
+}
+.article_row{
+justify-content: center;
+}
+
+.article-header{
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px 15px;
+   
+}
+.article-header h4{
+ margin-top: 5px;
+}
+.card-img-top{
+    height: 150px;
+}
+.btn-2{
+    background-color: #e96b56;
+    color: white;
+    letter-spacing: 2px;
+}
+.btn-2:hover{
+    color: white;
+    letter-spacing: 2px;
+}
+.article-back{
+    background-color: rgb(242, 236, 236);
+    padding: 30px 60px;
+}
