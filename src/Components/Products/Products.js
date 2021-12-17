@@ -22,7 +22,7 @@ const Products = ({ products, onAddToCart, totalItems }) => {
             <div className="row">
 
                 {products.map((product) => (
-                    <div className="col-lg-3 col-md-5 col-sm-10  ml-5 " key={product.id}>
+                    <div className="col-lg-4 col-md-5 col-sm-12  " key={product.id}>
                         <Product product={product} onAddToCart={onAddToCart} totalItems={totalItems} />
                     </div>
                 ))}

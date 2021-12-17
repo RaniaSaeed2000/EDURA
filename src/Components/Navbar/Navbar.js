@@ -96,8 +96,8 @@ const Navbar = ({totalItems}) => {
             </li>
            
           </ul>
-
-          {location.pathname === '/'   && (
+ 
+          {location.pathname === '/products'  && (
             
             // the previous line mean : only if we in the home toute show button if not do not show button
             <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
@@ -105,7 +105,20 @@ const Navbar = ({totalItems}) => {
                   <ShoppingCart/>
                   </Badge> */}
               <Badge color="secondary" badgeContent={totalItems} >
-                <ShoppingCart  color="action" />
+                <ShoppingCart  color="action" className="basket" />
+              </Badge>
+            </IconButton>)}
+
+
+          {location.pathname === '/'    && (
+            
+            // the previous line mean : only if we in the home toute show button if not do not show button
+            <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
+              {/* <Badge  color="secondary" badgeContent={totalItems}>
+                  <ShoppingCart/>
+                  </Badge> */}
+              <Badge color="secondary" badgeContent={totalItems} >
+                <ShoppingCart  color="action" className="basket" />
               </Badge>
             </IconButton>)}
 

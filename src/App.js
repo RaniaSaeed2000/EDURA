@@ -16,7 +16,6 @@ import ForgotPassword from './Components/Authentication/ForgotPassword'
 import { AuthProvider } from './Components/Context/AuthContexts'
 import PrivateRoute from './Components/Authentication/PrivateRoute'
 import Thankyou from './Components/Thankyou/Thankyou'
-import NotFound from './Components/NotFound'
 
 
 

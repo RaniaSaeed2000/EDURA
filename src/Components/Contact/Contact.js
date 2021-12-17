@@ -30,18 +30,18 @@ const Contact = () => {
         
         }}
         >
-            <h1 style={{marginTop:'25px' , fontFamily:'cursive' , color:' #e96b56' }}>Contact Form </h1>
-            <form className="row" style={{margin:"25px 85px 75px 100px"}} onSubmit={sendEmail}>
+            <div className="row"style={{paddingLeft:'15px', paddingRight:'15px',marginTop:'25px', textAlign:'center', flexFlow:'wrap'}} ><h1 style={{  fontFamily:'cursive' , color:' #e96b56',width:'90%', fontSize:"30px"}}>Contact Form </h1></div>
+            <form className="row" style={{paddingLeft:'15px', paddingRight:'15px', marginBottom:'25px', justifyContent:'center'}} onSubmit={sendEmail}>
                <label>Name</label>
-                <input type="text" name="name" className="form-control"/>
+                <input type="text" name="name" className="form-control"  style={{width:'50%'}} />
 
                 <label>Email</label>
-                <input type="email" name="user_email" className="form-control" />
+                <input type="email" name="user_email" className="form-control" style={{width:'50%'}} />
 
                 <label>Message</label>
-                <textarea name="message" rows="4" className="form-control"/>
+                <div className="row" style={{justifyContent:'center'}}><textarea name="message" rows="4" className="form-control" style={{width:'50%'}}/></div>
                 <input type="submit" value="Send" className="form-control btn "
-                style={{marginTop:"30px", backgroundColor:"#e96b56", color:"white", letterSpacing:'2px' }}
+                style={{marginTop:"30px", backgroundColor:"#e96b56", color:"white", letterSpacing:'2px',width:'50%' }}
                 />
                 
 
