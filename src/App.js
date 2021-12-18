@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route,HashRouter as Router } from 'react-router-dom'
 import { commerce } from "./Lib/Commersejs"
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
